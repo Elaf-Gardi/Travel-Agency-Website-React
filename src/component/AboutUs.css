@@ -1,0 +1,105 @@
+.About {
+  margin-bottom: 4.5rem;
+}
+.about-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.5rem;
+  margin-bottom: 3rem;
+}
+.about-title h3 {
+  color: #181717;
+  font-size: 2rem;
+}
+.about-title h5 {
+  color: #149c90;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  line-height: 1.5rem;
+}
+.timeline {
+  position: relative;
+  max-width: 75rem;
+  margin: auto; /*the 6rem might need to be deleted*/
+}
+.container {
+  position: relative;
+  padding: 0.6rem 3.1rem;
+  width: 50%;
+}
+
+.text-box {
+  padding: 1.2rem 1.8rem;
+  background: #eee;
+  position: relative;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+.lift-container {
+  left: 0;
+}
+.right-container {
+  left: 50%;
+}
+.circle {
+  position: absolute;
+  width: 2.5rem;
+  border-radius: 50%;
+  right: -1.2rem;
+  top: 2rem;
+  color: #149c90;
+  z-index: 0.6rem;
+}
+.right-container .circle {
+  left: -1.2rem;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 0.3rem;
+  height: 100%;
+  background: #149c90;
+  top: 0;
+  left: 50%;
+  margin-left: -0.1rem;
+  z-index: -0.001rem;
+}
+
+.text-box h2 {
+  font-weight: 600;
+  color: #211f1f;
+  margin-bottom: 0.2rem;
+}
+.text-box small {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  color: #149c90;
+}
+.text-box p {
+  color: #373434;
+}
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 1.7rem;
+  z-index: 1;
+  border-top: 0.9rem solid transparent;
+  border-bottom: 0.9rem solid transparent;
+  border-left: 0.9rem solid #eee;
+  right: -0.9rem;
+}
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 1.7rem;
+  z-index: 1;
+  border-top: 0.9rem solid transparent;
+  border-bottom: 0.9rem solid transparent;
+  border-right: 0.9rem solid #eee;
+  left: -0.9rem;
+}

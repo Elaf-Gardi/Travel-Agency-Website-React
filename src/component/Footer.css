@@ -1,0 +1,72 @@
+.contact {
+  background: #149c90;
+  padding: 2rem;
+}
+.main-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+}
+.footer {
+  padding: 1.4rem 0;
+}
+.list {
+  width: 25%;
+}
+.list h4 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+.list h4::before {
+  content: "";
+  position: absolute;
+  height: 0.1rem;
+  width: 3.5rem;
+  left: 0;
+  bottom: -0.6rem;
+  background: #fff;
+}
+.list ul li {
+  list-style: none;
+}
+.list ul li:not(last-child) {
+  margin-bottom: 1rem;
+}
+.list ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+  display: block;
+  transition: 0.3s;
+}
+.list ul li a:hover {
+  color: #fff;
+  transform: translateX(0.8rem);
+}
+.list .Social a {
+  height: 2.5rem;
+  width: 2.5rem;
+  background: #fff;
+  color: #149c90;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.6rem;
+  font-size: 1.3rem;
+  border-radius: 0.9rem;
+  transition: 0.3s;
+}
+.list .Social a:hover {
+  transform: scale(1.06);
+}
+.end-text {
+  text-align: center;
+  margin-top: 5rem;
+}
+.end-text p {
+  color: #fff;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}

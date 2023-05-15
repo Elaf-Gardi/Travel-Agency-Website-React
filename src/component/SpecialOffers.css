@@ -1,0 +1,66 @@
+.offers {
+  margin: 3rem 3rem;
+}
+.content-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  line-height: 2rem;
+}
+.content-container h5 {
+  color: #149c90;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  line-height: 1.5rem;
+}
+.content-container h3 {
+  color: #181717;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+  gap: 2rem;
+}
+.card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 3rem;
+  height: 30vh;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: rgba(17 17 17/ 15%) 0px 0.5rem 1rem;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #000;
+}
+.card p {
+  color: #656464;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1rem;
+}
+.card button {
+  width: 7rem;
+  height: 2rem;
+  background-color: #149c90;
+  border: 1px solid #149c90;
+  border-radius: 0.5rem;
+  color: #fff;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.card button:hover {
+  background-color: #11857b;
+  border: 1px solid #11857b;
+}
